@@ -1,29 +1,56 @@
 .awards {
   font-family: "Mulish", sans-serif;
+  border-bottom: 1px solid #D8D8D8;
 }
 
 .awards-container {
   max-width: 1100px;
-  margin: 0 auto; 
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
+  margin-top: 80px;
 }
 
 .award-block {
   display: flex;
   flex-direction: column;
+  border-top: 1px solid #D8D8D8;
+  padding-top: 50px;
 }
 
 .award-row {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); 
+  grid-template-columns: repeat(5, 1fr); /* fem lika breda kolumner */
   align-items: start;
+  padding-bottom: 60px;
 }
 
 .award-heading {
   font-weight: bold;
+  font-size: 22px;
+}
+
+.category {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.desc {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  padding-top: 10px;
 }
 
 .year {
-    text-align: right;
+  text-align: right;
+  font-size: 16px;
 }
+
+.content {
+  margin-left: 50px;
+}
+
