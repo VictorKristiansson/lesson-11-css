@@ -320,4 +320,81 @@ body {
 
 .content {
   margin-left: 50px;
+}
+
+.contact-section {
+  margin-top: 80px;
+  font-family: "Mulish", sans-serif;
+}
+
+.top-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.text-column {
+  max-width: 440px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-column h2 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 55px;
+}
+
+.text-column p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 40px;
+}
+
+.form-column {
+  max-width: 475px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section form textarea {
+  width: 100%;
+  margin-bottom: 30px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #D8D8D8;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Mulish", sans-serif;
+}
+
+.contact-section form input {
+  width: 100%;
+  margin-bottom: 30px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #D8D8D8;
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Mulish", sans-serif;
+}
+
+.contact-section button {
+  border: none;
+  background-color: #4A4FF2;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Mulish", sans-serif;
+  width: 125px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.bottom-part {
+  margin-top: 120px;
 }/*# sourceMappingURL=style.css.map */
