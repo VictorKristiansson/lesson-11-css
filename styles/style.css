@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .header {
   width: 100%;
   background-color: #ffffff;
@@ -397,4 +398,65 @@ body {
 
 .bottom-part {
   margin-top: 120px;
+}
+
+.projects {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Mulish", sans-serif;
+  margin-top: 100px;
+}
+
+.projects-heading {
+  width: 495px;
+  margin-bottom: 40px;
+}
+
+.projects-heading h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 55px;
+}
+
+.projects-text {
+  width: 635px;
+}
+
+.projects-text p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 26px;
+}
+
+.projects-right {
+  width: 355px;
+  margin-left: 100px;
+}
+
+.projects-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.projects-right li {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* två kolumner: etikett och värde */
+  border-bottom: 1px solid #D8D8D8;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 0 15px 0;
+}
+
+.projects-right span {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.projects-main-pic {
+  margin-top: 60px;
 }/*# sourceMappingURL=style.css.map */
