@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .header {
   width: 100%;
   background-color: #ffffff;
@@ -444,7 +443,7 @@ body {
 
 .projects-right li {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* två kolumner: etikett och värde */
+  grid-template-columns: 1fr 1fr;
   border-bottom: 1px solid #D8D8D8;
   font-size: 18px;
   font-weight: bold;
@@ -455,11 +454,6 @@ body {
   font-weight: bold;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.5);
-}
-
-.projects-gallery {
-  display: flex;
-  gap: 30px;
 }
 
 .projects-main-pic {
