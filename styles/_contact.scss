@@ -69,10 +69,34 @@
     font-family: "Mulish", sans-serif;
     width: 125px;            
     height: 50px;            
-    cursor: pointer;         
+    cursor: pointer;  
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease, border 0.2s ease;       
 }
 
 
 .bottom-part {
     margin-top: 120px;
+}
+
+.contact-section button:hover{
+  background-color: rgb(255, 255, 255);
+  color: #4A4FF2;
+  transform: scale(0.95);
+  border: 1px solid #4A4FF2;
+}
+
+.contact-section .form-column form input,
+.contact-section .form-column form textarea {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+.contact-section .form-column form input:hover,
+.contact-section .form-column form textarea:hover,
+.contact-section .form-column form input:focus,
+.contact-section .form-column form textarea:focus {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border: 1px solid #4A4FF2;
 }

@@ -36,3 +36,13 @@
 .services-list li {
     padding-bottom: 10px;
 }
+
+.services-list li {
+  transition: transform 0.2s ease;
+}
+
+.services-list li:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  text-decoration: underline;
+}
