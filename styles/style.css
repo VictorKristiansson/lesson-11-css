@@ -49,18 +49,18 @@ body {
   background-color: #ffffff;
   padding: 20px 0;
   margin-top: 50px;
+  font-family: "Mulish", sans-serif;
 }
 
-.header-container {
+.header .header-container {
   width: 1100px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "Mulish", sans-serif;
 }
 
-.nav {
+.header .nav {
   list-style: none;
   display: flex;
   gap: 24px;
@@ -68,11 +68,29 @@ body {
   padding: 0;
 }
 
-.nav li a {
+.header .nav li {
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.header .nav a {
   text-decoration: none;
   color: #000;
   font-weight: bold;
   font-size: 18px;
+}
+
+.header .logo-link {
+  transition: transform 0.2s ease;
+}
+
+.header .logo-link:hover {
+  transform: scale(1.05);
+}
+
+.header .nav li:hover {
+  transform: scale(1.05);
+  text-decoration: underline;
 }
 
 body {
@@ -271,6 +289,41 @@ body {
   height: 24px;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.header .logo-link {
+  transition: transform 0.2s ease;
+}
+
+.header .logo-link:hover {
+  transform: scale(1.05);
+}
+
+.header .nav li:hover {
+  transform: scale(1.05);
+  text-decoration: underline;
+}
+
+.footer .logo-link {
+  transition: transform 0.2s ease;
+}
+
+.footer .logo-link:hover {
+  transform: scale(1.05);
+}
+
+.footer .nav li:hover {
+  transform: scale(1.05);
+  text-decoration: underline;
+}
+
+.footer .social-media img {
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.footer .social-media img:hover {
+  transform: scale(1.1);
 }
 
 .services {

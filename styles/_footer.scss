@@ -47,3 +47,38 @@
   height: 24px;
   object-fit: contain;
 }
+
+.header .logo-link {
+  transition: transform 0.2s ease;
+}
+
+.header .logo-link:hover {
+  transform: scale(1.05);
+}
+
+.header .nav li:hover {
+  transform: scale(1.05);
+  text-decoration: underline;
+}
+
+.footer .logo-link {
+  transition: transform 0.2s ease;
+}
+
+.footer .logo-link:hover {
+  transform: scale(1.05);
+}
+
+.footer .nav li:hover {
+  transform: scale(1.05);
+  text-decoration: underline;
+}
+
+.footer .social-media img {
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.footer .social-media img:hover {
+  transform: scale(1.1);
+}
